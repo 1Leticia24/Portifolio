@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to right, #33a18d, #94248c);
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+    font-size: 20px;
 }
 li {
     list-style: none;
@@ -15,15 +17,23 @@ li a {
     text-decoration: none;
 }
 .foto {
+    text-align: center;
+
     border-radius: 70px;
 }
 .lista-menu {
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
     display: flex;
     padding: 20px;
     justify-content: space-evenly;
     width: 50%;
 }
 .menu {
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
+    background-image: linear-gradient(to right, #28a890, #94248c);
+
     background-color: #9c70ce;
     display: flex;
     justify-content: flex-end;
@@ -31,9 +41,13 @@ li a {
     width: 100%;
 }
 .menu li {
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
     list-style: none;
 }
 .menu a {
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
@@ -41,19 +55,23 @@ li a {
     text-decoration: none;
 }
 .title {
-    font-family: 'ABeeZee', sans-serif;
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
     font-weight: 700;
     font-size: 36px;
-    color: #04a192;
+    color: #e2e8e7;
 }
 .intro {
-    font-family: 'ABeeZee', sans-serif;
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
     color: #000000;
-    font-size: 16px;
+    font-size: 17px;
     max-width: 490px;
     text-align: center;
 }
 .intro content {
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
     background-color: #edeaea;
     display: flex;
     flex-direction: column;
@@ -65,17 +83,22 @@ li a {
     margin-bottom: 20px;
 }
 section h1 {
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
     font-size: 24px;
-    color: #04a192;
+    color: #f4faf9;
     margin-right: 50px;
 }
 .subtitle {
-    font-family: 'ABeeZee', sans-serif;
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
     font-size: 20px;
-    color: #cabdcb;
+    color: #fdf9fd;
     margin-bottom: 20px;
 }
 .conteudo {
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
     display: flex;
     max-width: 800px;
     margin: 0 auto;
@@ -83,19 +106,27 @@ section h1 {
     padding-bottom: 20px;
 }
 #portifolio {
-    background-color: #edeaea;
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
+    background-image: linear-gradient(to right, #33a18d, #94248c);
+
+    background-color: #fdfbfb;
 }
 .descricao {
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
     font-size: 16px;
     line-height: 22px;
-    color: #828282;
+    color: #f7f2f2;
     font-weight: 700;
 }
 .item {
     margin-bottom: 30px;
 }
 #contato {
-    background-color: #9c70ce;
+    background-image: linear-gradient(to right, #33a18d, #94248c);
+
+    background-color: #f4f3f6;
     height: 200px;
     padding-left: 50px;
     padding-top: 40px;
@@ -106,118 +137,8 @@ section h1 {
         /*text-align: center*/
 }
 #contato {
+    font-family:'Roboto Mono','Roboto Flex', sans-serif, monospace, 'Courier New', 'ABeeZee', 'Courier New' ;
+   
     color: #ffffff;
     text-decoration: none;
 }
-
-
-
-/*body {
-    background-color: rgb(228, 193, 222);
-    font-family: 'Roboto', 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-}
-p {
-    font-size: 1em;
-    line-height: 1em;
-    font-family: 'Open Sans', sans-serif;
-    list-style: disc;
-    list-style-type: decimal;
-    text-decoration: none;
-}
-.menu {
-    background-color: #938DF8;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 1px;
-     
-} 
-    position: fixed;
-    width: 50px;
-}
-.menu li{
-   list-style: #938DF8;
-}
-.menu a{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
-    color: #FFFF;
-    text-decoration: none;
-}
-.title {
-    font-weight: 700;
-    font-size: 36px;
-    color:  #09090a;
-}
-.subtitle {
-    font-size: 24px;
-    color:  #0f0d0d;
-}
-.intro {
-    font-family: 'ABeeZee', 'Courier New', sans-serif;
-    color: #000000;
-    font-size: 16px;
-    max-width: 500px;
-}
-.section h1{
-    font-size: 24px;
-    color: #49BFB3;
-    margin-right: 50px;
-}
-.border {
-
-}
-.lista-menu {
-    display: flex;
-    padding: 20px;
-    width: 50;
-    justify-content: space-around;
-    align-items: center;
-}
-.intro-content {
-    background-color: rgb(228, 193, 222);
-    display: flex;
-    flex-direction: column;
-    height: 580px;
-    justify-content: space-evenly;
-    padding-top: 100px;
-    align-items: center;
-}
-.intro-content figure {
-    margin-bottom: 20px;
-}
-.conteudo {
-    display: flex;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 30px 0;
-    font-family: 'Roboto', 'Open Sans', sans-serif;
-}
-#meu-perfil {
-    background-color: #edeaed;
-}
-#contato {
-    background: #5A53D8;
-    height: 198px;
-    padding-left: 50px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-#contato a {
-    color: #ffffff;
-    text-decoration: none;
-}
-.descricao {
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 22px;
-      color: #828282
-}
-.item {
-    margin-bottom: 30;
-}*/
